@@ -8,7 +8,7 @@ namespace first_xamarin_test
         {
             InitializeComponent();
 
-            MainPage = new first_xamarin_testPage();
+            MainPage = new GreetPage ();
         }
 
         protected override void OnStart()
